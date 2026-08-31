@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bruna Nascimento | Portfólio Profissional</title>
+    <style>
+        /* Estilos Gerais de Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+        }
+
+        body {
+            background-color: #f8fafc;
+            color: #1e293b;
+            line-height: 1.6;
+        }
+
+        /* Topo Profissional (Header) */
+        header {
+            background: linear-gradient(135deg, #0f172a, #0d9488);
+            color: #ffffff;
+            text-align: center;
+            padding: 4.5rem 1rem;
+            border-bottom: 4px solid #14b8a6;
+        }
+
+        header h1 {
+            font-size: 2.8rem;
+            font-weight: 700;
+            margin-bottom: 0.6rem;
+            letter-spacing: -0.05em;
+        }
+
+        header p {
+            font-size: 1.3rem;
+            font-weight: 300;
+            color: #ccfbf1;
+        }
+
+        /* Container das Seções */
+        section {
+            max-width: 750px;
+            margin: 2.5rem auto;
+            padding: 2.5rem;
+            background: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(15, 23, 42, 0.05);
+        }
+
+        h2 {
+            color: #0f172a;
+            font-size: 1.6rem;
+            border-bottom: 3px solid #14b8a6;
+            padding-bottom: 0.4rem;
+            margin-bottom: 1.5rem;
+            display: inline-block;
+        }
+
+        p {
+            font-size: 1.1rem;
+            color: #334155;
+            margin-bottom: 1rem;
+        }
+
+        /* Lista de Contatos Otimizada */
+        .contato-container {
+            display: flex;
+            flex-direction: column;
+            gap: 1.2rem;
+            margin-top: 1rem;
+        }
+
+        .contato-card {
+            display: flex;
+            align-items: center;
+            padding: 1rem;
+            background: #f1f5f9;
+            border-radius: 8px;
+            border-left: 4px solid #0d9488;
+            transition: transform 0.2s ease, background-color 0.2s ease;
+        }
+
+        .contato-card:hover {
+            transform: translateX(4px);
+            background: #e2e8f0;
+        }
+
+        .contato-icone {
+            font-size: 1.4rem;
+            margin-right: 1rem;
+            width: 30px;
+            text-align: center;
+        }
+
+        .contato-info strong {
+            color: #0f172a;
+            font-size: 0.9rem;
+            display: block;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .contato-info a {
+            color: #0d9488;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+        }
+
+        .contato-info a:hover {
+            text-decoration: underline;
+            color: #0f766e;
+        }
+
+        /* Rodapé Fixo */
+        footer {
+            text-align: center;
+            padding: 4rem 1rem 3rem 1rem;
+            color: #64748b;
+            font-size: 0.95rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Cabeçalho Principal -->
+    <header>
+        <h1>Bruna Nascimento</h1>
+        <p>Desenvolvedora de Software em Construção & Estudante de Tecnologia</p>
+    </header>
+
+    <!-- Seção Sobre Mim -->
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <p>Olá! Seja muito bem-vindo ao meu portfólio profissional. Estou iniciando formalmente a minha jornada rumo ao mercado de tecnologia e desenvolvimento de software.</p>
+        <p>Este espaço concentra as minhas redes de contato profissionais e funcionará como um diário de bordo digital, onde compartilharei a evolução dos meus estudos, o desenvolvimento das minhas habilidades e a criação dos meus futuros projetos práticos de programação.</p>
+    </section>
+
+    <!-- Seção de Contatos Conectada -->
+    <section id="contato">
+        <h2>Contato & Redes</h2>
+        <div class="contato-container">
+            
+            <!-- Link do E-mail -->
+            <div class="contato-card">
+                <div class="contato-icone">📧</div>
+                <div class="contato-info">
+                    <strong>E-mail Comercial</strong>
+                    <a href="mailto:Bruna.ns.dev@gmail.com">Bruna.ns.dev@gmail.com</a>
+                </div>
+            </div>
+
+            <!-- Link do LinkedIn -->
+            <div class="contato-card">
+                <div class="contato-icone">💼</div>
+                <div class="contato-info">
+                    <strong>LinkedIn Profissional</strong>
+                    <a href="https://www.linkedin.com/in/bruna-nascimento-99490a424" target="_blank">in/bruna-nascimento-99490a424</a>
+                </div>
+            </div>
+
+            <!-- Link do GitHub -->
+            <div class="contato-card">
+                <div class="contato-icone">💻</div>
+                <div class="contato-info">
+                    <strong>GitHub</strong>
+                    <a href="https://github.com" target="_blank">://github.com</a>
+                </div>
+            </div>
+
+            <!-- Link Direto para o seu WhatsApp -->
+            <div class="contato-card">
+                <div class="contato-icone">📱</div>
+                <div class="contato-info">
+                    <strong>WhatsApp de Contato</strong>
+                    <a href="https://wa.me" target="_blank">+55 (67) 99159-5044</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Rodapé com o Ano Corrente -->
+    <footer>
+        <p>&copy; 2026 Bruna Nascimento — Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
